@@ -5,8 +5,8 @@
 	<parameter name="url" value="https://www.ebay.com/"></parameter>
 	<test thread-count="5" name="Test">
 		<parameter name="UserOrEmail"
-			value="franciscomendozatamayo@gmail.com"></parameter>
-		<parameter name="Password" value="#F180918m"></parameter>
+			value="XXXXXXXXXXX@XXX.com"></parameter>
+		<parameter name="Password" value="XXXXXXXXX"></parameter>
 		<parameter name="Username" value="Francisco"></parameter>
 		<parameter name="Article" value="balon de basketball"></parameter>
 		<parameter name="SearchArticle"

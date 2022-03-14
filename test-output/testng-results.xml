@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Link Inicia Sesion]]>
+    </line>
+    <line>
+      <![CDATA[Login]]>
+    </line>
+    <line>
+      <![CDATA[Buscar Articulo]]>
+    </line>
+    <line>
+      <![CDATA[Valir Articulo Carrito de Compras]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="83129" started-at="2022-03-13T21:07:13 CST" finished-at="2022-03-13T21:08:36 CST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="83129" started-at="2022-03-13T21:07:13 CST" finished-at="2022-03-13T21:08:36 CST">
+      <class name="com.TesteBay.Test_Compra_eBay">
+        <test-method status="PASS" signature="start(java.lang.String,java.lang.String)[pri:0, instance:com.TesteBay.Test_Compra_eBay@396e2f39]" name="start" is-config="true" duration-ms="8894" started-at="2022-03-13T21:07:13 CST" finished-at="2022-03-13T21:07:22 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.ebay.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="TestLinkIniciaSesion_eBay()[pri:1, instance:com.TesteBay.Test_Compra_eBay@396e2f39]" name="TestLinkIniciaSesion_eBay" duration-ms="1070" started-at="2022-03-13T21:07:22 CST" finished-at="2022-03-13T21:07:23 CST">
+          <reporter-output>
+            <line>
+              <![CDATA[Link Inicia Sesion]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestLinkIniciaSesion_eBay -->
+        <test-method status="PASS" signature="TestLoginApplication_eBay(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.TesteBay.Test_Compra_eBay@396e2f39]" name="TestLoginApplication_eBay" duration-ms="3698" started-at="2022-03-13T21:07:23 CST" finished-at="2022-03-13T21:07:27 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[franciscomendozatamayo@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[#F180918m]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Francisco]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestLoginApplication_eBay -->
+        <test-method status="PASS" signature="TestSearchAddShoppingCartArticle_eBay(java.lang.String,java.lang.String)[pri:3, instance:com.TesteBay.Test_Compra_eBay@396e2f39]" name="TestSearchAddShoppingCartArticle_eBay" duration-ms="64773" started-at="2022-03-13T21:07:27 CST" finished-at="2022-03-13T21:08:31 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[balon de basketball]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nuevo de alta calidad balón de baloncesto GG7X oficial tamaño 7 PU Cuero Entrenamiento Bola]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Buscar Articulo]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestSearchAddShoppingCartArticle_eBay -->
+        <test-method status="PASS" signature="TestShoppingCartArticle_eBay(java.lang.String)[pri:4, instance:com.TesteBay.Test_Compra_eBay@396e2f39]" name="TestShoppingCartArticle_eBay" duration-ms="2935" started-at="2022-03-13T21:08:31 CST" finished-at="2022-03-13T21:08:34 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nuevo de alta calidad balón de baloncesto GG7X oficial tamaño 7 PU Cuero Entrenamiento Bola]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Valir Articulo Carrito de Compras]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestShoppingCartArticle_eBay -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.TesteBay.Test_Compra_eBay@396e2f39]" name="end" is-config="true" duration-ms="1691" started-at="2022-03-13T21:08:34 CST" finished-at="2022-03-13T21:08:36 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- com.TesteBay.Test_Compra_eBay -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="url" value="https://www.ebay.com/"/>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="Username" value="Francisco"/>
+    <parameter name="Article" value="balon de basketball"/>
+    <parameter name="UserOrEmail" value="franciscomendozatamayo@gmail.com"/>
+    <parameter name="SearchArticle" value="Nuevo de alta calidad balón de baloncesto GG7X oficial tamaño 7 PU Cuero Entrenamiento Bola"/>
+    <parameter name="Password" value="#F180918m"/>
+    <classes>
+      <class name="com.TesteBay.Test_Compra_eBay">
+        <methods>
+          <include name="TestShoppingCartArticle_eBay" invocation-numbers="0"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- com.TesteBay.Test_Compra_eBay -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
